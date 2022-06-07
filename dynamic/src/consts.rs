@@ -371,6 +371,14 @@ pub mod vars {
         pub const TRAIL_EFFECT: i32 = 0x1000;
     }
 
+    pub mod shizue {
+        // flags
+        pub const IS_NOT_QUICK_RELEASE: i32 = 0x1000;
+
+        // floats
+        pub const STORED_BALLOON_POWER: i32 = 0x1000;
+    }
+
     pub mod shotos {
         // flags
         pub const IS_USE_EX_SPECIAL: i32 = 0x1000;
